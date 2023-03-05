@@ -1,0 +1,92 @@
+ul {
+    margin: 0;
+    padding: 100;
+    list-style: none;
+    width: 250px;
+    }
+
+ul li {
+    position: relative;
+    }
+
+/*Oculta sub item*/
+li ul {
+    position: absolute;
+    left: 60px;
+    top: 0;
+    display: none;
+    }
+
+/*Apresenta sub itens*/    
+li:hover > ul { display: block; }
+
+
+
+/*Daqui para baixo é basicamente o estilo que vc já tinha feito*/
+
+body{                     /*texto*/
+    font-family: arial;
+    background: url("brasilitlogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-size: 100%;
+    margin: 0px;
+}
+
+nav{            /*BLOCO CINZA*/
+	background-color: rgba(16,16,16,.1);
+	width: 290px;
+	height: 1300px;
+	transition: 0.3s ease;
+}
+
+a{         /*TODAS OPÇOES*/
+	display: block;
+	padding: 15px 0px;
+	color: rgb(10, 10, 10);
+	text-decoration: none;
+}
+
+ul li a:hover{        /* PASSAR MOUSE POR CIMA*/
+	background-color: rgb(176,224,230);
+	color: white ;
+}
+
+ul li ul li{       /*SUB OPÇOES 2*/
+	
+	display: block;
+	background: rgba(255,255,255,0.1);
+	left: 152px;
+    background-color: rgba(16,16,16,.3);
+    padding: 4px;
+    width: 230px;
+ }   
+
+
+
+
+ul li ul li ul li{       /*SUB OPÇOES 3 */
+    
+    display: block;
+    background: rgba(255,255,255,0.1);
+    left: 140px;
+    background-color: rgba(16,16,16,.3);
+    padding: 4px;
+    width: 130px;
+ }   
+
+
+
+
+ul li ul li ul li ul li{       /*SUB OPÇOES 4*/
+    
+    display: block;
+    background: rgba(255,255,255,0.1);
+    left: 40px;
+    background-color: rgba(16,16,16,.3);
+    padding: 4px;
+    width: 200px;
+ }   
+
+
