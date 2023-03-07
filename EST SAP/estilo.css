@@ -89,4 +89,12 @@ ul li ul li ul li ul li{       /*SUB OPÇOES 4*/
     width: 200px;
  }   
 
+.imagem01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: space-around;
+}    
+
 
